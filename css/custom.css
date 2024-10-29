@@ -5,7 +5,7 @@
 
 /* Hide the mobile logo on larger screens */
 .logo-mobile {
-    !display: none !important;
+    display: none !important;
 }
 
 /* Hide the desktop logo on smaller screens */
@@ -22,8 +22,11 @@
     .logo-mobile {
         display: block !important;
         /* Adjust the size for mobile view */
-        width: 100px !important; /* Example size, adjust as needed */
+        width: 39px !important; /* Example size, adjust as needed */
         height: auto !important; /* Maintain aspect ratio */
+    }
+    #menu-btn{
+        margin-left: 10px !important;
     }
 }
 
