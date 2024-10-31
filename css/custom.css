@@ -443,6 +443,12 @@ ul li {
         /* Smaller padding for tablets */
         font-size: 0.9rem !important; /* Slightly smaller font size */
     }
+    .swiper-button-prev{
+       display: none !important; 
+    }
+    .swiper-button-next{
+        display: none !important; 
+     }
 }
 
 /* Mobile styles */
