@@ -402,6 +402,39 @@ ul li {
 }
 
 
+/* slider design */
+
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .slider-title {
+        font-size: 2rem !important; /* reduce for tablets */
+    }
+    .subtitle {
+        font-size: 1.25rem !important;
+    }
+    .slider-teaser {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 576px) {
+    .slider-title {
+        font-size: 1.5rem !important; /* reduce further for mobile */
+    }
+    .subtitle {
+        font-size: 1rem !important;
+    }
+    .slider-teaser {
+        font-size: 0.8rem !important;
+    }
+}
+
+
+
+
+
 
 
 
