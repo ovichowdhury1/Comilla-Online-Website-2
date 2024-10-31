@@ -420,17 +420,19 @@ ul li {
 
 /* Mobile styles */
 @media (max-width: 576px) {
+    
+    .subtitle {
+        font-size: 0.8rem !important;
+    }
+
     .slider-title {
         font-size: 2rem !important; /* reduce further for mobile */
     }
-    .subtitle {
-        font-size: 0.6rem !important;
-    }
+
     .slider-teaser {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
     }
 }
-
 
 
 
