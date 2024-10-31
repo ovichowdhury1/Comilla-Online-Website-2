@@ -421,16 +421,15 @@ ul li {
 /* Mobile styles */
 @media (max-width: 576px) {
     .slider-title {
-        font-size: 1.5rem !important; /* reduce further for mobile */
+        font-size: 2rem !important; /* reduce further for mobile */
     }
     .subtitle {
-        font-size: 1rem !important;
+        font-size: 0.6rem !important;
     }
     .slider-teaser {
         font-size: 0.8rem !important;
     }
 }
-
 
 
 
